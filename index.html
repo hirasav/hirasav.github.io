@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My new website</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<style>
+h1{
+	color : red;
+}
+
+h3{
+	color :green;
+}
+</style>
+<body>
+
+<h1>HELLO GITHUB </h1>
+
+<h3>Thank you for you support and help</h3>
+
+<input id="btn1" type="button" value="click me to revel your discoun amound"/>
+
+<script>
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			alert("you found "+Math.floor(Math.random()*5));
+		});
+	});
+</script>
+</body>
+</html>
